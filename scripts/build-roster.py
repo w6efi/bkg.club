@@ -277,7 +277,7 @@ def mugshot_inner_html(member: dict) -> str:
     return (
         '<div class="mugshot-placeholder">\n'
         '                            <span class="icon">👤</span>\n'
-        '                            MUGSHOT<br>PENDING\n'
+        '                            PHOTO<br>PENDING\n'
         '                        </div>'
     )
 
@@ -301,7 +301,7 @@ def render_founder_card(member: dict) -> str:
                         <div class="founder-title">🤜 THE OG BRASS POUNDER 🤛</div>
                         <div class="member-number">{number}</div>
                         <div class="member-name">{name}</div>
-                        <div class="founder-quote">"2m CW or DIE"</div>
+                        <div class="founder-quote">"2m CW or BUST"</div>
                     </div>
                     <div class="founder-sparks"></div>
                 </div>"""
